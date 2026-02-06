@@ -69,6 +69,11 @@ export const ReviewResult = ({
        </div>
  
        <div className="flex-1 px-6 pb-4 space-y-4 overflow-y-auto">
+         <div className="bg-accent/60 border border-primary/30 rounded-xl p-4 shadow-card">
+           <p className="text-sm font-semibold text-foreground leading-relaxed">
+             ※これは文章作成のお手伝いです。Googleのポリシーを遵守するため、生成された下書きに必ずご自身の言葉を付け加えてから投稿してください
+           </p>
+         </div>
          <AnimatePresence>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

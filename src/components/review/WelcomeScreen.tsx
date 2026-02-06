@@ -49,6 +49,17 @@ export const WelcomeScreen = ({ onStart }: WelcomeScreenProps) => {
            <br />
            口コミ文章を自動で作成します
          </motion.p>
+
+         <motion.div
+           initial={{ y: 20, opacity: 0 }}
+           animate={{ y: 0, opacity: 1 }}
+           transition={{ delay: 0.45 }}
+           className="w-full max-w-md bg-card rounded-xl p-4 shadow-card border border-border mb-10"
+         >
+           <p className="text-sm text-foreground leading-relaxed">
+             本アプリは、お客様の感想に基づいた文章作成をサポートする補助ツールです。投稿内容の最終確認と調整はご自身で行っていただくようお願いいたします。
+           </p>
+         </motion.div>
  
          <motion.div
            initial={{ y: 20, opacity: 0 }}

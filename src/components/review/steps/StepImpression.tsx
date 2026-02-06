@@ -19,7 +19,7 @@
          <Textarea
            value={value}
            onChange={(e) => onChange(e.target.value)}
-           placeholder="説明が丁寧だった、リラックスできた、等"
+          placeholder="（例）〇〇先生の技術が素晴らしかった、店内の清潔感があった、少し部屋が寒かったので改善してほしい点、など"
            className="min-h-[150px] text-base resize-none border-2 border-border focus:border-primary bg-card rounded-xl p-4"
          />
        </QuestionCard>
